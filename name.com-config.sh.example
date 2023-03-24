@@ -1,0 +1,9 @@
+# Name.com API credentials
+API_USER="username"
+API_KEY="apikeyapikeyapikeyapikeyapikey
+
+# Domain and hostname to update
+DOMAIN="example.com"
+SUBDOMAIN="subdomain"
+HOSTNAME="$SUBDOMAIN.$DOMAIN"
+
