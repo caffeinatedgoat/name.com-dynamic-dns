@@ -15,7 +15,7 @@ is_valid_ip_address() {
 # Function to get the public IP address from a source
 get_ip_address() {
   local source=$1
-  local ip_address=$(curl -s $source)
+  local ip_address=$(curl -m 5 -s $source)
   if is_valid_ip_address "$ip_address"; then
     echo $ip_address
   else
